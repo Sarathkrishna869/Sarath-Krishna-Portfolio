@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/css/main.2838a676.css",
-    "main.js": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/js/main.3a6ba134.js",
-    "static/js/453.017cdcc9.chunk.js": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js",
-    "static/media/wallpaper.jpg": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/wallpaper.dc97625391d7394588aa.jpg",
-    "static/media/bg-light.png": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/FYP.png": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/FYP.a5841124ab467cbe69ce.png",
-    "static/media/ML project.png": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/ML project.e2d06ce373a1e66538dc.png",
-    "static/media/IOT.jpg": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/IOT.5fea515430a31f73de72.jpg",
-    "static/media/coursera.svg": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/coursera.0518eda279ab1750d9cc106684820d12.svg",
-    "static/media/elective.jpg": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/media/elective.fe94b096479d72ac74d8.jpg",
-    "index.html": "/Sarathkrishna869/Sarath-Krishna-Portfolio/index.html",
-    "main.2838a676.css.map": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/css/main.2838a676.css.map",
-    "main.3a6ba134.js.map": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/js/main.3a6ba134.js.map",
-    "453.017cdcc9.chunk.js.map": "/Sarathkrishna869/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js.map"
+    "main.css": "/Sarath-Krishna-Portfolio/static/css/main.03541ad4.css",
+    "main.js": "/Sarath-Krishna-Portfolio/static/js/main.7173c298.js",
+    "static/js/453.017cdcc9.chunk.js": "/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js",
+    "static/media/wallpaper.jpg": "/Sarath-Krishna-Portfolio/static/media/wallpaper.dc97625391d7394588aa.jpg",
+    "static/media/bg-light.png": "/Sarath-Krishna-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/FYP.png": "/Sarath-Krishna-Portfolio/static/media/FYP.a5841124ab467cbe69ce.png",
+    "static/media/ML project.png": "/Sarath-Krishna-Portfolio/static/media/ML project.e2d06ce373a1e66538dc.png",
+    "static/media/IOT.jpg": "/Sarath-Krishna-Portfolio/static/media/IOT.5fea515430a31f73de72.jpg",
+    "static/media/coursera.svg": "/Sarath-Krishna-Portfolio/static/media/coursera.0518eda279ab1750d9cc106684820d12.svg",
+    "static/media/elective.jpg": "/Sarath-Krishna-Portfolio/static/media/elective.fe94b096479d72ac74d8.jpg",
+    "index.html": "/Sarath-Krishna-Portfolio/index.html",
+    "main.03541ad4.css.map": "/Sarath-Krishna-Portfolio/static/css/main.03541ad4.css.map",
+    "main.7173c298.js.map": "/Sarath-Krishna-Portfolio/static/js/main.7173c298.js.map",
+    "453.017cdcc9.chunk.js.map": "/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2838a676.css",
-    "static/js/main.3a6ba134.js"
+    "static/css/main.03541ad4.css",
+    "static/js/main.7173c298.js"
   ]
 }
