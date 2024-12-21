@@ -1,91 +1,119 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons'; // For React icon
+import { faDatabase, faCode, faProjectDiagram, faTools } from '@fortawesome/free-solid-svg-icons'; // For solid icons
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
-const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
-];
-
-const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
-
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+const categories = [
+  {
+    icon: faCode,
+    title: "Programming Languages & Frameworks",
+    description:
+      "Proficient in a wide range of languages and frameworks used in software and web development.",
+    techStack: [
+      "Python",
+      "Java",
+      "C",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+    ],
+  },
+  {
+    icon: faDatabase,
+    title: "Database & Data Analytics",
+    description:
+      "Hands-on experience with relational and non-relational databases and data visualization tools.",
+    techStack: [
+      "MySQL",
+      "MongoDB",
+      "HDFS",
+      "PowerBI",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "scikit-learn",
+      "TensorFlow",
+      "DLGraph",
+    ],
+  },
+  {
+    icon: faTools,
+    title: "Testing & Automation",
+    description:
+      "Experienced in manual and automated testing tools and methodologies, ensuring robust application delivery.",
+    techStack: [
+      "Selenium",
+      "Apache JMeter",
+      "Manual Testing",
+      "Black-box Testing",
+    ],
+  },
+  {
+    icon: faReact,
+    title: "User Interface & Web Development",
+    description:
+      "Skilled in creating interactive web applications and visually appealing user interfaces.",
+    techStack: [
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+    ],
+  },
+  {
+    icon: faProjectDiagram,
+    title: "Project Management & Version Control",
+    description:
+      "Proficient in managing tasks, collaborating with teams, and maintaining version control.",
+    techStack: ["Jira", "GitHub"],
+  },
+  {
+    icon: faTools,
+    title: "Operating Systems & Office Tools",
+    description:
+      "Comfortable working with diverse operating systems and office productivity tools.",
+    techStack: [
+      "Windows",
+      "Linux (Ubuntu, Kali)",
+      "Mac OS",
+      "Microsoft Word",
+      "Excel",
+      "PowerPoint",
+      "Outlook",
+    ],
+  },
 ];
 
 function Expertise() {
-    return (
+  return (
     <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Testing</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>AI/ML</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
+      <div className="skills-container">
+        <h1>Expertise</h1>
+        <div className="skills-grid">
+          {categories.map((category, index) => (
+            <div className="skill" key={index}>
+              <FontAwesomeIcon icon={category.icon} size="3x" />
+              <h3>{category.title}</h3>
+              <p>{category.description}</p>
+              <div className="flex-chips">
+                <span className="chip-title">Tech stack:</span>
+                {category.techStack.map((tech, techIndex) => (
+                  <Chip key={techIndex} className="chip" label={tech} />
+                ))}
+              </div>
             </div>
+          ))}
         </div>
+      </div>
     </div>
-    );
+  );
 }
 
 export default Expertise;

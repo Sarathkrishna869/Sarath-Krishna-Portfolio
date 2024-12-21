@@ -1,48 +1,71 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
-}
+.contact_wrapper {
+  text-align: left;
+  background-color: black;
+  padding: 50px;
+  border-radius: 70px;
+  
+ 
 
-.contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
     color: white;
   }
 
-  fieldset {
-    background-color: white;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
   }
-}
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
-.form-flex {
-  display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
-}
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
-}
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
 
-form {
-  width: 100% !important;
-}
+        &:hover {
+          color: #007bff; // Highlight on hover
+        }
+      }
 
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+      .icon {
+        font-size: 3rem; // Make icons larger
+        color: white;
+
+        &:hover {
+          color: #007bff; // Add hover effect
+        }
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 20px;
+
+      .icon-button {
+        &:hover {
+          background-color: transparent;
+        }
+
+        .icon {
+          font-size: 2.5rem; // Bigger social icons
+          color: white;
+
+          &:hover {
+            color: #007bff; // Highlight on hover
+          }
+        }
+      }
+    }
+  }
 }

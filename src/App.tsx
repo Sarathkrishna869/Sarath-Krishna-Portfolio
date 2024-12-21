@@ -40,7 +40,7 @@ function App() {
             <Expertise/>
             <Contact/>
         </FadeIn>
-        <Footer />
+        {/* <Footer /> */}
     </div>
     );
 }
