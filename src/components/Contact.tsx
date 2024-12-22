@@ -18,11 +18,11 @@ function Contact() {
           <Box className="contact-info">
             <div className="info-item">
               <EmailIcon className="icon" />
-              <a href="mailto:yourname@example.com">yourname@example.com</a>
+              <a href="mailto:sarathkrishna869@gmail.com">sarathkrishna869@gmail.com</a>
             </div>
             <div className="info-item">
               <PhoneIcon className="icon" />
-              <a href="tel:+1234567890">+123-456-7890</a>
+              <a href="tel:+918137903858">+918137903858</a>
             </div>
             <div className="social-icons">
               <IconButton

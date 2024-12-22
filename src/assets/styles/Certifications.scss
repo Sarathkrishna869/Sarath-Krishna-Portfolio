@@ -1,0 +1,68 @@
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 30%;
+    text-align: left;
+}
+
+.certifications-container h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.certification {
+    text-align: left;
+    box-shadow: 10px 10px 10px black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.certification:hover {
+    transform: scale(1.05);
+}
+
+.certification img {
+    max-width: 100%;  // Smaller image size
+    height: auto;
+    border-radius: 5px;  // Rounded corners for images
+    margin-bottom: 10px;  // Margin between the image and text
+      // Ensures images fit well without distortion
+}
+
+.certification a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.certification h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.certification p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+@media screen and (max-width: 700px) {
+    .certifications-container {
+        display: block;
+        padding: 5%;
+    }
+
+    .certifications-grid {
+        display: block;
+    }
+
+    .certification {
+        padding-bottom: 5%;
+        margin-bottom: 20px;
+    }
+}
