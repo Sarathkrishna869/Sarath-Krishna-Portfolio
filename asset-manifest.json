@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sarath-Krishna-Portfolio/static/css/main.c2b4209b.css",
-    "main.js": "/Sarath-Krishna-Portfolio/static/js/main.3775f493.js",
+    "main.css": "/Sarath-Krishna-Portfolio/static/css/main.83542d2a.css",
+    "main.js": "/Sarath-Krishna-Portfolio/static/js/main.42957362.js",
     "static/js/453.017cdcc9.chunk.js": "/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js",
     "static/media/bg-light.jpg": "/Sarath-Krishna-Portfolio/static/media/bg-light.136bfb37b68a4d0b6c26.jpg",
     "static/media/wallpaper.jpg": "/Sarath-Krishna-Portfolio/static/media/wallpaper.dc97625391d7394588aa.jpg",
@@ -12,12 +12,12 @@
     "static/media/elective.jpg": "/Sarath-Krishna-Portfolio/static/media/elective.fe94b096479d72ac74d8.jpg",
     "static/media/innoval.png": "/Sarath-Krishna-Portfolio/static/media/innoval.e863f0b792cfef0c2309.png",
     "index.html": "/Sarath-Krishna-Portfolio/index.html",
-    "main.c2b4209b.css.map": "/Sarath-Krishna-Portfolio/static/css/main.c2b4209b.css.map",
-    "main.3775f493.js.map": "/Sarath-Krishna-Portfolio/static/js/main.3775f493.js.map",
+    "main.83542d2a.css.map": "/Sarath-Krishna-Portfolio/static/css/main.83542d2a.css.map",
+    "main.42957362.js.map": "/Sarath-Krishna-Portfolio/static/js/main.42957362.js.map",
     "453.017cdcc9.chunk.js.map": "/Sarath-Krishna-Portfolio/static/js/453.017cdcc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2b4209b.css",
-    "static/js/main.3775f493.js"
+    "static/css/main.83542d2a.css",
+    "static/js/main.42957362.js"
   ]
 }
