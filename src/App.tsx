@@ -9,6 +9,7 @@ import {
   Footer,
   Publication,
   Certifications,
+  Education,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
@@ -34,8 +35,9 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Timeline/>
-            <Project/>
+            <Education/>
             <Publication/>
+            <Project/>
             <Certifications/>
             <Expertise/>
             <Contact/>

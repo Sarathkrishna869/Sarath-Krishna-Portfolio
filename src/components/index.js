@@ -8,3 +8,5 @@ export { default as Contact } from "./Contact";
 
 export { default as Certifications } from "./Certifications";
 export { default as Publication } from "./Publication";
+
+export { default as Education } from "./Education";
