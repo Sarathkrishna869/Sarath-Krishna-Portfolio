@@ -1,0 +1,1 @@
+This is My personal Portfolio website that showcases all information about Myself. This was Mainly Devoloped using React , Typescript, SCSS, Javascript. Kindly have a visit and please do reeach out to me via the provided contact details. Thank You! 
